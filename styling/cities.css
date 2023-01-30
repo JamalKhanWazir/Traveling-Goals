@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(70deg, rgb(227, 255, 253), rgb(203, 230, 240));
+    color: rgb(68, 68, 68);
+}
+
+header {
+    position: static;   /* a default value for the postion is a static we wrote cz to overwrite the position value of shared.css file */
+}
+
+#page-logo a{
+    color: rgb(0, 85, 255);
+}
+
+header a {
+    color: rgb(0, 85, 255);
+}
+
+
+header nav a:hover {
+    color: rgb(2, 118, 129);
+    background-color: rgb(176, 240, 229);
+    /* padding: 14px; */
+}
+
+main ul {
+    width: 1500px;
+    margin: 0 auto 48px auto;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* fr means fraction 1fr 1fr means two columan having same function value */
+    gap: 20px 20px; /* gap between rows and columns first value of rows and 2nd for columns */
+}
+
+li:nth-of-type(3) {    /* with this point to the nth (3rd) item of the grid layout */
+    grid-column: 1 / span 2;  /* means it will cover the column area starts from 1-2 columns */
+}
+
+main li {
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;  /* used to fit the image and also every element of the list as with a boder-radius if we don't put this then the image doesn't curved in a corner */
+}
+
+main li img {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.item-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;   /* used for making the direction of the content by defual it is row */
+    justify-content: space-between;
+    
+}
+
+.actions {
+    text-align: right;
+}
+
+.actions a {
+    text-decoration: none;
+    color: rgb(22, 211, 228);
+    padding: 6px;       
+    border-radius: 8px; /* applying padding & boder-radius here instead of at hover property cz it leads to a jumping of button which is a problem though */
+}
+
+.actions a:hover {
+    color: rgb(22, 211, 228);
+    background-color: rgb(235, 253, 255);
+}

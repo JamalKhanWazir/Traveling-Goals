@@ -1,0 +1,67 @@
+/* body {
+    background: linear-gradient(70deg, rgb(227, 255, 253), rgb(203, 230, 240));
+} */
+
+/* header {
+    position;
+} */
+
+#page-logo a{
+    color: rgb(0, 85, 255);
+}
+
+header a {
+    color: rgb(0, 85, 255);
+}
+
+header nav a:hover {
+    color: rgb(2, 118, 129);
+    background-color: rgb(176, 240, 229);
+}
+
+#education-detail {
+    height: 900px;
+    background-image: url(/images/places/lapop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#about-myself {
+    position: relative;
+    top: 100px;
+
+}
+
+#education-detail h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 16px 0;
+    color: white;
+}
+
+#main_list {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(239, 234, 234);
+    list-style: square;
+    width: 800px;
+    margin: 0 auto;
+    padding: 4px 24px;
+    margin-bottom: 48px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+#academic-records {
+    margin-bottom: 0;
+}
+
+#records ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 2fr 1fr 4fr 2fr 1fr;
+    padding: 0;
+}
+
+#records li {
+    padding: 0 10px;
+}

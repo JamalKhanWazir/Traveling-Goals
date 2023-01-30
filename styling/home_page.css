@@ -1,0 +1,103 @@
+#hero {
+    height: 700px;
+    background-image: url("/images/places/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content {
+    width: 600px;
+    background-color: rgba(48, 45, 45, 0.8);
+    box-shadow: 4px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    text-align: center;
+    padding: 24px 0;
+    margin: 0 auto;     
+    position: relative;
+    top: 200px;
+    color: white;
+}
+
+#hero-content h2 {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0;
+}
+
+#hero-content p {
+    /* font-family: "Raleway", sans-serif; */
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+#hero-content a {
+    text-decoration: none;
+    background-color: rgb(255, 251, 0);
+    color: black;
+    padding: 8px 16px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#hero-content a:hover {
+    background-color: rgb(255, 230, 50);
+    /* color: white; */
+}
+
+#highlights {
+    padding: 24px 0;
+    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(203, 230, 240))   /* color of background to the gradient  */
+}
+
+#highlights h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: rgb(59, 65, 64);
+}
+
+#destinations {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: auto;          /* making a content of block element into the center to it */
+    margin-bottom: 40px;
+    width: 90%;
+    object-fit: cover;    /* this property fits the image in container or anything */
+}
+
+.destination {
+    margin: 0 16px;
+}
+
+.destination img {
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    
+}
+
+.destination p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(114, 117, 117);
+}
+
+.destination strong {
+    color: rgba(75, 157, 39, 0.8);
+}
+
+
+/* #social-netwrok-icons {
+    list-style: none;
+    /* box-shadow: 10px 10px 8px rgb(59, 65, 64); */
+    
+/* } */ 
