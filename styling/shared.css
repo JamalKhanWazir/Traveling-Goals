@@ -5,7 +5,7 @@ body {
 
 header {
     display: flex;
-    align-items: center;
+    align-items: center;       /* centered all the contents verically */
     justify-content: space-between;
     padding: 15px 20px;
     width: 100%;
