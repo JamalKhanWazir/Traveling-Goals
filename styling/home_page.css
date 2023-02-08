@@ -1,27 +1,27 @@
 #hero {
-    height: 700px;
+    height: 44rem;
     background-image: url("/images/places/ocean.jpg");
     background-position: center;
     background-size: cover;
 }
 
 #hero-content {
-    width: 600px;
+    width: 38rem;
     background-color: rgba(48, 45, 45, 0.8);
     box-shadow: 4px 4px 8px rgb(68, 67, 67);
     border-radius: 10px;
     text-align: center;
-    padding: 24px 0;
+    padding: 1.5rem 0;
     margin: 0 auto;     
     position: relative;
-    top: 200px;
+    top: 12.5rem;
     color: white;
 }
 
 #hero-content h2 {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 2rem;
     margin: 0;
 }
 
@@ -29,18 +29,18 @@
     /* font-family: "Raleway", sans-serif; */
     text-transform: uppercase;
     font-weight: 300;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 #hero-content a {
     text-decoration: none;
     background-color: rgb(255, 251, 0);
     color: black;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
     border-radius: 8px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 3rem;
 }
 
 #hero-content a:hover {
@@ -49,14 +49,14 @@
 }
 
 #highlights {
-    padding: 24px 0;
+    padding: 1.5rem 0;
     background: linear-gradient(45deg, rgb(227, 255, 253), rgb(203, 230, 240))   /* color of background to the gradient  */
 }
 
 #highlights h2 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 2rem;
     color: rgb(59, 65, 64);
 }
 
@@ -67,17 +67,17 @@
     align-items: center;
     padding: 0;
     margin: auto;          /* making a content of block element into the center to it */
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     width: 90%;
     object-fit: cover;    /* this property fits the image in container or anything */
 }
 
 .destination {
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .destination img {
-    height: 200px;
+    height: 12.5rem;
     width: 100%;
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
     border-radius: 10px;
@@ -87,10 +87,43 @@
 .destination p {
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: rgb(114, 117, 117);
 }
 
 .destination strong {
     color: rgba(75, 157, 39, 0.8);
 } 
+
+@media(max-width: 62rem) {
+    #hero {
+        height: 32rem;
+
+    }
+
+    #hero-content {
+        width: 24rem;
+    }
+
+    #hero-content h2 {
+        font-size: 1.5rem;
+    }
+
+    #hero-content p {
+        font-size: 0.8rem;
+    }
+
+    #hero-content a {
+        font-size: 0.8rem;
+    }    
+
+    #destinations {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .destination img {
+        height: 15rem;
+    }
+    
+}
